@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <title>Calulator</title>
+</head>
+<body>
+   
+   <div class="main">
+      <input type="text" id = 'res'>
+      
+      
+      
+      
+      <div class="btn">
+         <input type="button" value = 'C' onclick = "Clear()">
+         <input type="button" value = '%' onclick = "Solve('%')">
+         <input type="button" value = '←' onclick ="Back('←')">
+         <input type="button" value = '/' onclick = "Solve('/')">
+         <br>
+         <input type="button" value = '೭' onclick = "Solve('7')">
+         <input type="button" value = '೮' onclick = "Solve('8')">
+         <input type="button" value = '೯' onclick = "Solve('9')">
+         <input type="button" value = 'x' onclick = "Solve('*')">
+         <br>
+         <input type="button" value = '೪' onclick = "Solve('4')">
+         <input type="button" value = '೫' onclick = "Solve('5')">
+         <input type="button" value = '೬' onclick = "Solve('6')">
+         <input type="button" value = '-' onclick = "Solve('-')">
+         <br>
+         <input type="button" value = '೧' onclick = "Solve('1')">
+         <input type="button" value = '೨' onclick = "Solve('2')">
+         <input type="button" value = '೩' onclick = "Solve('3')">
+         <input type="button" value = '+' onclick = "Solve('+')">
+         <br>
+         <input type="button" value = '೦೦'onclick = "Solve('00')">
+         <input type="button" value = '೦' onclick = "Solve('0')">
+         <input type="button" value = '.' onclick = "Solve('.')">
+         <input type="button" value = '=' onclick = "Result()">
+      </div>
+   </div>
+   <script src = 'Cal.js' ></script>
+</body>
+</html>
